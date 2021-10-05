@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+    rel="stylesheet"/>
+  <link rel="stylesheet" href="./style.css">
+  <title>Calculator vol. 2.0</title>
+</head>
+<body>
+  <section class="container">
+    <header class="row">
+      <div class="d-flex custom-main-header">
+        <h1>Calculator</h1>
+        <h2>
+          A simple calculator
+        </h2>
+      </div>
+    </header>
+  </section>
+  
+  <main>
+    <section class="container">
+      <div class="d-flex custom-main-calculator">
+        <div class="row custom-form">
+          <form action="">
+            <input class="col-md-12" type="text" id="result" disabled>
+          </form>
+        </div>
+        <div class="row custom-buttons" id="buttons">
+          <div class="row">
+            <button class="col-md-3 col-sm-1 number" type="button">7</button>
+            <button class="col-md-3 col-sm-1 number" type="button">8</button>
+            <button class="col-md-3 col-sm-1 number" type="button">9</button>
+            <button class="col-md-3 col-sm-1 operator" type="button">÷</button>
+          </div>
+  
+          <div class="row">
+            <button class="col-md-3 col-sm-3 number" type="button">4</button>
+            <button class="col-md-3 col-sm-3 number" type="button">5</button>
+            <button class="col-md-3 col-sm-3 number" type="button">6</button>
+            <button class="col-md-3 col-sm-3 operator" type="button">×</button>
+          </div>
+  
+          <div class="row">
+            <button class="col-md-3 col-sm-3 number" type="button">1</button>
+            <button class="col-md-3 col-sm-3 number" type="button">2</button>
+            <button class="col-md-3 col-sm-3 number" type="button">3</button>
+            <button class="col-md-3 col-sm-3 operator" type="button">-</button>
+          </div>
+          <div class="row">
+            <button class="col-md-9 col-sm-9 number" type="button">0</button>
+            <button class="col-md-3 col-sm-3 operator" type="button">+</button>
+          </div>
+          <div class="row">
+            <button class="col-md-9 col-sm-9" id="clear" type="button">C</button>
+            <button class="col-md-3 col-sm-3" id="equals-sign" type="button">=</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
